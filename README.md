@@ -29,6 +29,7 @@ Amaç, 5×5 bir grid üzerinde sınırlı boya stoğuyla hedef bölgeyi (3×3) e
 
 ###  Sonuçlar Ve Performans
 Eğitim tamamlandıktan sonra, projenin çalıştığı dizinde aşağıdaki dosyalar oluşturulacaktır:
+
 **1. `training_performance.png`**:  Ajanın öğrenme sürecini gösteren Episode 
 başına ortalama ödül grafiği.
 
@@ -36,4 +37,4 @@ başına ortalama ödül grafiği.
     
 **2. `test_agent.gif`**: Eğitilmiş ajanın (farklı rastgele başlangıçlardan) optimal politikayı uygularken grid üzerindeki hareketini ve boyama sırasını gösteren animasyonlu GIF.
 
-![test_agent.gif](/test_agent.gif)
+![test_agent.gif](/test_agent2.gif)
