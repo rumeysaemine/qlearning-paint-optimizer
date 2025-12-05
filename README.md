@@ -37,4 +37,4 @@ başına ortalama ödül grafiği.
     
 **2. `test_agent.gif`**: Eğitilmiş ajanın (farklı rastgele başlangıçlardan) optimal politikayı uygularken grid üzerindeki hareketini ve boyama sırasını gösteren animasyonlu GIF.
 
-![test_agent.gif](/test_agent2.gif)
+![test_agent.gif](/test_agent.gif)
