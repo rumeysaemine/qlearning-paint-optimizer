@@ -36,12 +36,12 @@ $$\mathbf{S} = (\text{Izgara Durumu}, \text{Ajan Konumu}, \text{Boya Stoğu}, \t
 
 **4. Ödül Sistemi (Reward Function)**
 
-Ödül sistemi, ajanı minimum atıklı hızlı boyama hedefine yönlendirmek için tasarlandı.
+Ajanı minimum atıklı hızlı boyama hedefine yönlendirmek için ödül sistemi tasarlandı.
 
 - Hedef bölgenin tamamen boyanması: **+100**
 - Hedef bölgedeki boyanmamış bir hücresinin boyanması: **+5**
 - Her adım (zaman maliyeti): **-2**
-- Izgara sınırlarına çarpma: **-4**
+- Izgara sınırlarına çarpma: **-3**
 - Hedef dışı bir hücreyi boyama (yüksek atık cezası): **-10**
 - Zaten boyanmış bir hücreyi tekrar boyama: **-3**
 
@@ -77,5 +77,6 @@ Eğitim tamamlandıktan sonra, projenin çalıştığı dizinde aşağıdaki dos
 Grafik, RL ajanının başarılı bir şekilde eğitildiğini ve yaklaşık 25.000 episode'da öğrenmeyi tamamlayarak görevin maksimum potansiyel performansına ulaştığını göstermektedir. Ajan, görevi başarılı bir şekilde gerçekleştirmeyi öğrenmiştir.
 
 **2. `test_agent.gif`**: Eğitilmiş ajanın optimal politikayı uygularken grid üzerindeki hareketini ve boyama sırasını gösteren animasyonlu GIF.
-   ![test_agent.gif](/test_agent.gif)
+
+![test_agent.gif](/test_agent.gif) ![test_agent2.gif](/test_agent2.gif)
  
